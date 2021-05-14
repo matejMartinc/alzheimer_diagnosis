@@ -1,0 +1,7 @@
+*.npy
+*.npz
+*.pyc
+.idea
+trained_classification_models*
+data*
+results*
