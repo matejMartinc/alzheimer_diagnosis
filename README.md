@@ -56,4 +56,11 @@ features, conducts majority voting cross-validation experiments and uses trained
 python classification.py --char_input_paths pathsToTrainAndTestTSVFilesGeneratedInStep1DividedByComma --audio_features_folder pathToFolderWithAudioFeaturesGeneratedInStep5 --text_features_folder pathToFolderWithWordTimestampsGeneratedInStep4 --embeddings_path PathToEmbeddingsTxtFile 
 ```
 
+Please check the default arguments for each script is something is unclear.
+
+## Contributors to the code ##
+
+Matej Martinc<br/>
+Fasih Haider<br/>
+
 * [Knowledge Technologies Department](http://kt.ijs.si), Jožef Stefan Institute, Ljubljana
