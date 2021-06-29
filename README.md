@@ -1,4 +1,4 @@
-# Code for experiments conducted in the paper 'Temporal integration of text transcripts and acoustic features for Alzheimer's diagnosis based on spontaneous speech' accepted for publication in Frontiers in Aging Neuroscience journal #
+# Code for experiments conducted in the paper 'Temporal integration of text transcripts and acoustic features for Alzheimer's diagnosis based on spontaneous speech' [[link](https://doi.org/10.3389/fnagi.2021.642647)] accepted for publication in Frontiers in Aging Neuroscience journal #
 
 Please cite the following paper [[bib](https://github.com/matejMartinc/alzheimer_diagnosis/blob/master/bibtex.js)] if you use this code:
 

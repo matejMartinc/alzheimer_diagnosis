@@ -1,0 +1,11 @@
+@ARTICLE{10.3389/fnagi.2021.642647,
+  AUTHOR={Martinc, Matej and Haider, Fasih and Pollak, Senja and Luz, Saturnino},
+  TITLE={Temporal Integration of Text Transcripts and Acoustic Features for Alzheimer's Diagnosis Based on Spontaneous Speech},
+  JOURNAL={Frontiers in Aging Neuroscience},
+  VOLUME={13},
+  PAGES={299},
+  YEAR={2021},
+  URL={https://www.frontiersin.org/article/10.3389/fnagi.2021.642647},
+  DOI={10.3389/fnagi.2021.642647},
+  ISSN={1663-4365},
+}
