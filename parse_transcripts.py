@@ -257,11 +257,11 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
 
-    parse_test_transcripts(args.input_test_path, args.output_test_path + '.txt')
-    build_test_csv(args.output_test_path + '.txt', args.output_test_path + '.tsv')
+    parse_test_transcripts(args.input_path_test, args.output_path_test + '.txt')
+    build_test_csv(args.output_path_test + '.txt', args.output_path_test + '.tsv')
 
-    parse_transcripts(args.input_train_path, args.output_train_path + '.txt')
-    build_csv(args.output_train_path + '.txt', args.output_train_path + '.tsv')
+    parse_transcripts(args.input_path_train, args.output_path_train + '.txt')
+    build_csv(args.output_path_train + '.txt', args.output_path_train + '.tsv')
 
 
 

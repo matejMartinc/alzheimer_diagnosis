@@ -24,7 +24,6 @@ def make_file(text, id, output):
                 new_text = before_text + words + after_text
                 break
         text = " ".join(new_text)
-    print("After: ", text)
     p = re.compile(r'.*?')
     start_idx = 0
     for m in p.finditer(text):
@@ -171,7 +170,7 @@ def parse_test_transcripts(input_folder, output_path):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--input_path_train', type=str, default='data/ADReSS-IS2020-data/train/transcription', help='path to train transcription folder')
-    parser.add_argument('--output_path_train', type=str, default='data/sentence_aligned', help='output folder for parsed train trnascriptions')
+    parser.add_argument('--output_path_train', type=str, default='data/sentence_aligned', help='output folder for parsed train transcriptions')
     parser.add_argument('--input_path_test', type=str, default='data/ADReSS-IS2020-data/test/transcription',
                         help='path to test transcription folder')
     parser.add_argument('--output_path_test', type=str, default='data/sentence_aligned/test',
